@@ -5,7 +5,6 @@ import ResumeForm from "./assets/components/ResumeForm"
 import { Routes,Route } from "react-router-dom"
 
 function App() {
-  console.log("App component is rendering!"); // Debug log
 
   let [resumedata,setResumeData]=useState({
     personelDetails:{
